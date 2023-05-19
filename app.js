@@ -20,10 +20,10 @@ const car = (name, model, year, image, owner, phone) => ({
 const log = (text, type, date = new Date()) => ({ text, type, date });
 
 const cars = [
-  car("Toyota", "Camry", 2022, "images/camry.jpg", "Alex", "+5 800 433, 45 33"),
+  car("Toyota", "camry", 2022, "images/camry.jpg", "Alex", "+5 800 433, 45 33"),
   car(
     "Toyota",
-    "Corolla",
+    "corolla",
     2020,
     "images/corolla.jpg",
     "Jon",
